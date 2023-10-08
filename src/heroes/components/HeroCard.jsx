@@ -4,7 +4,6 @@ function HeroCard({ hero }) {
   const {
     id,
     superhero,
-    publisher,
     alter_ego: alterEgo,
     first_appearance: firstAppearance,
     characters
