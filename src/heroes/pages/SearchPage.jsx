@@ -17,8 +17,6 @@ function SearchPage() {
 
   const onSearchSubmit = (e) => {
     e.preventDefault();
-    // if (searchText.trim().length <= 2) return;
-
     navigate(`?query=${searchText.toLowerCase().trim()}`);
   };
 
