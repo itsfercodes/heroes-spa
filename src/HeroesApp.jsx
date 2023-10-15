@@ -4,7 +4,7 @@ import AppRouter from './router/AppRouter';
 function HeroesApp() {
   return (
     <AuthProvider>
-      <AppRouter />;
+      <AppRouter />
     </AuthProvider>
   );
 }
