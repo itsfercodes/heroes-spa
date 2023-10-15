@@ -10,7 +10,8 @@ function LoginPage() {
   const onLogin = () => {
     login('Fernando Lopez');
 
-    navigate('/marvel', {
+    const lastPath = localStorage.getItem('lastPath') || '/';
+    navigate(lastPath, {
       replace: true
     });
   };
